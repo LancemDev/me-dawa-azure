@@ -7,7 +7,7 @@ $db_name = 'laravel';
 //Initializes MySQLi
 $conn = mysqli_init();
 
-mysqli_ssl_set($conn,NULL,NULL, "C:\Users\munya\Downloads\LanceMunyao-ICSDITN291122-letter.pdf", NULL, NULL);
+mysqli_ssl_set($conn,NULL,NULL, "https://1drv.ms/u/s!AtSaJh0u6lj7geVY0bFJX7kjg2N1Gw?e=cIqWUD", NULL, NULL);
 
 // Establish the connection
 mysqli_real_connect($conn, 'me-dawa-server.mysql.database.azure.com', 'rootGuest', 'mysql123lance', 'quickstartdb', 3306, NULL, MYSQLI_CLIENT_SSL);

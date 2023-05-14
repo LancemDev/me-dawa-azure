@@ -1,7 +1,6 @@
 <?php
 
-echo "Hello World";
-echo "\n";
-echo "Hello World 2";
+echo "Lance, You are not over doing this school thing.";
+
 
 ?>

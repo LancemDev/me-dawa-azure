@@ -10,7 +10,7 @@ $conn = mysqli_init();
 mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/DigiCertGlobalRootG2.crt.pem", NULL, NULL);
 
 // Establish the connection
-mysqli_real_connect($conn, 'me-dawa-server.mysql.database.azure.com', 'me-dawa-server', 'mysql123lance', 'quickstartdb', 3306, NULL, MYSQLI_CLIENT_SSL);
+mysqli_real_connect($conn, 'me-dawa-server.mysql.database.azure.com', 'rootGuest', 'mysql123lance', 'quickstartdb', 3306, NULL, MYSQLI_CLIENT_SSL);
 
 //If connection failed, show the error
 if (mysqli_connect_errno())

@@ -9,6 +9,4 @@ if (!$conn) {
 } else{
     echo "Connection to MySQL server " . mysqli_get_host_info($conn) . "<br>";
 }
-
-echo $dbname;
 ?>
